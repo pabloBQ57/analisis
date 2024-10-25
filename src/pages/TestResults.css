@@ -1,0 +1,53 @@
+/* TestResults.css */
+.test-results-container {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .test-results-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .test-result-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #e0f7fa;
+    border-radius: 5px;
+  }
+  
+  .test-log {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+  }
+  
+  .show-more-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .show-more-button:hover {
+    background-color: #0056b3;
+  }
+  .code-editor {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
+  

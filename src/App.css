@@ -1,0 +1,229 @@
+/* Estilos generales */
+body {
+  font-family: 'Roboto', sans-serif; /* Fuente moderna y empresarial */
+  background-color: #f4f4f9; /* Fondo neutro y claro */
+  margin: 0;
+  padding: 0;
+  color: #333; /* Texto en gris oscuro */
+}
+
+/* Títulos elegantes */
+h2, h3 {
+  font-family: 'Playfair Display', serif; /* Fuente estilizada */
+}
+
+h2 {
+  font-size: 32px; /* Aumentar el tamaño */
+  font-weight: 700;
+  color: #1e1e2f;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Barra de navegación */
+nav {
+  background-color: #1e1e2f; /* Fondo oscuro elegante */
+  padding: 15px 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end; /* Alinear a la derecha */
+}
+
+nav ul li {
+  margin-left: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff; /* Texto blanco */
+  font-weight: 500;
+  font-size: 18px; /* Tamaño de fuente mayor */
+  padding: 8px 12px;
+  transition: color 0.3s ease-in-out, border-bottom 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #4da6ff; /* Azul claro en hover */
+  border-bottom: 2px solid #4da6ff; /* Línea en la parte inferior en hover */
+}
+
+/* Fondo blanco para el contenido */
+.app-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px; /* Más redondeado */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Sombra ligera y limpia */
+  max-width: 1100px;
+  margin: 40px auto;
+}
+
+/* Botones */
+button {
+  background-color: #1e1e2f; /* Azul oscuro elegante */
+  color: white;
+  border: none;
+  padding: 12px 24px; /* Más grande */
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #4da6ff; /* Azul claro en hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Sombra en hover */
+}
+
+.edit-button {
+  background-color: #4caf50; /* Verde */
+}
+
+.delete-button {
+  background-color: #f44336; /* Rojo */
+}
+
+/* Lista de Proyectos */
+.project-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.project-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px; /* Aumentar espacio */
+  margin-bottom: 15px;
+  background-color: #f0f0f5;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Sombra más pronunciada */
+}
+
+/* Inputs */
+input[type="text"] {
+  background-color: #f0f0f5; /* Fondo gris claro */
+  color: #333; /* Texto gris oscuro */
+  border: 1px solid #ddd; /* Borde gris suave */
+  padding: 12px; /* Más espacio */
+  border-radius: 4px;
+  margin-right: 10px;
+  width: 100%;
+  max-width: 300px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+input[type="text"]:focus {
+  border-color: #4da6ff; /* Azul claro en foco */
+  outline: none;
+}
+
+input[type="file"] {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* Tablas */
+.project-table, .test-plan-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.project-table th, .test-plan-table th, 
+.project-table td, .test-plan-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.project-table th, .test-plan-table th {
+  background-color: #f4f4f4; /* Encabezado claro */
+  font-weight: bold;
+}
+
+.project-table tr:nth-child(even), .test-plan-table tr:nth-child(even) {
+  background-color: #f9f9f9; /* Alternar colores */
+}
+
+.project-table tr:hover, .test-plan-table tr:hover {
+  background-color: #f1f1f1; /* Hover */
+}
+
+/* Estilos para el contenedor de previsualización */
+.preview-container {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
